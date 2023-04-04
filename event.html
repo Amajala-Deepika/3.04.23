@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function operation(){
+            console.log("events example")
+        }
+        function demo(){
+            console.log("from demo function")
+        }
+        function loadingEffect(){
+            alert("from hover effect")
+        } 
+    </script>
+</head>
+<body>
+    <input onchange="demo()"/></input>
+    <!--<button onclick="operation()">submit</button-->
+    <button onmouseover="loadingEffect()">submit</button>       
+</body>
+</html>

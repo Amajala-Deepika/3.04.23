@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var d="deepika"
+        function demo(){
+        var d="priya"
+            console.log("d value inside function",d)
+            var d="jay"
+            console.log("d value inside  function",d)
+        }
+        demo()
+        console.log("d value outside function",d)
+        function loadingEffect(){
+           confirm("Yes or No")
+        } 
+        var list="1234567890"
+     randomPassword=[]
+     for(u=1;u<=4;u++){
+        var position=Math.floor(Math.random()*list.length)
+        randomPassword.push(list.charAt(position))
+     }
+     var password=randomPassword.join("")
+     console.log(password)
+     
+
+    </script>
+</head>
+<body>
+    <inputs onchange="demo"></inputs>
+    <button onclick="loadingEffect()">submit</button>       
+
+</body>
+</html>
